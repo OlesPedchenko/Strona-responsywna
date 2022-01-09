@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+ <html lang='pl'>
+ <head>
+ <meta charset='utf-8'>
+ <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+ <title>Strona RWD</title>
+ <link rel='stylesheet' href='css/style_pedchenko.css'>
+ </head>
+ <body>
+ <div class='container'>
+ <!--header -->
+ <header>
+ <img src="images/gdansk3.jpg" alt=""/>
+ </header>
+ <!--sidebar -->
+ <aside>
+ <nav>
+ <ul>
+ <li><a href="index_pedchenko.html">Start</a></li>
+ <li><a href="o_rwd_pedchenko.html ">O   RWD</a></li>
+ <li><a href="css_a_rwd_pedchenko.html">CSS a RWD</a></li>
+ <li><a href="realizacja_rwd_pedchenko.html">Realizacja RWD</a></li>
+ <li><a href="kod_css_pedchenko.html">KOD pliku CSS  z wytłumaczeniami</a></li>
+ </ul>
+ </nav>
+ </aside>
+ <!--main -->
+ <section id="main">
+ <h1>Jak używać @media query?</h1>
+ <p>
+ Media query to “zmienna” wprowadzona w CSS3. Obecnie spotykana jest ona na każdej stronie typu RWD. Praktycznie bez @media query RWD by nie istniało. Czasami stosuje się tylko określenie @media bez dodatku query (zapytanie, pytanie).
+ </p>
+ <p>
+ <textarea rows="9">
+ przykład:
+ 
+ @media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	[class*="col-"] {
+	width: 100%;
+	}
+ }
+ </textarea>
+ </p>
+ <h1>Co zatem robi @media?</h1>
+ <p>
+ Media to swego rodzaju zapytanie –warunek informujący przeglądarkę o tym jaki kod CSS ma użyć w konkretnym przypadku np. inny dla:
+ <ol style="margin-left:20px">
+ <li>komputera stacjonarnego</li>
+ <li>laptopa</li>
+ <li>tabletu</li>
+ <li>komórki</li>
+ </ol>
+ Czyli rozpoznaje na jakim urządzeniu pracuje odbiorca i strona dobiera ułożenie oraz parametry strony w zależności od urządzenia odbiorczego.
+ </p>
+ </section>
+ <!--footer -->
+ <footer>
+ <p>RWD_ZSE.pl © 2020</p>
+ </footer>
+ </div>
+</body>
+</html>
